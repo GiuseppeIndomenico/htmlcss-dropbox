@@ -64,7 +64,7 @@ a {
     margin-bottom: 5px;
     z-index: 1000;
     position: fixed;
-    top:0;
+    top: 0;
     width: 100%;
     background-color: var(--bg-primary);
 }
@@ -73,8 +73,11 @@ a {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+
+}
+
+.gp {
     gap: 2rem 1rem
-   
 }
 
 li {
@@ -115,12 +118,13 @@ li {
     max-height: 750px;
 }
 
-.jumbo-cont{
+.jumbo-cont {
     display: flex;
     align-items: flex-start;
 }
 
-#jumbo p, #jumbo button{
+#jumbo p,
+#jumbo button {
     margin-bottom: 2rem;
 }
 
@@ -131,24 +135,24 @@ h1 {
     padding-top: 5rem;
 }
 
-.jumbo-text{
+.jumbo-text {
     width: 350px;
     position: relative;
-    top:2rem
+    top: 2rem
 }
 
-.img-jumbo{
+.img-jumbo {
     width: 800px;
     height: 800px;
 }
 
-.img-jumbo img{
+.img-jumbo img {
     width: 100%;
     position: relative;
-    top:2rem
+    top: 2rem
 }
 
-.fa-arrow-down{
+.fa-arrow-down {
     font-size: 3rem;
     margin-top: 2rem;
 }
@@ -170,57 +174,140 @@ h1 {
 
 */
 
-.bg-primary{
+.bg-primary {
     background-color: var(--bg-primary);
     width: 100%;
 }
 
-.bg-primary section{
+.bg-primary .cont {
 
     max-width: 1000px;
     margin: 10rem auto;
 }
 
-input{
+input {
     padding: 2rem;
-    margin:1rem
+    margin: 1rem
 }
 
-h2{
+h2 {
     font-size: 2.5rem;
     margin-bottom: 2.5rem;
 }
 
 
-.card{
+.card {
     width: (100/3 - 2rem);
     border: 1px solid lightgrey;
 }
 
 
-.card-bus{
-   width: calc(100% / 3 - 2rem);
+.card-bus {
+    width: calc(100% / 3 - 2rem);
 
 }
 
 
-.partner img{
+.partner img {
     width: 600px;
     display: block;
 }
 
-.partner article{
+.partner article {
     display: block;
 }
 
 .card-bus img {
-    width: 300px
+    width: 300px;
+    display: block;
+
+}
+
+/*sezione affiliati*/
+
+
+.aff {
+    width: 100%;
+    display: flex;
+}
+
+section a {
+    text-decoration: underline;
+}
+
+.card-aff {
+    width: 50%;
+    padding: 4rem;
+
+}
+
+
+.aff-left,
+.aff-right,
+.aff-central {
+    width: calc(100% / 3);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+
+}
+
+.aff-central {
+    padding: 4rem;
+    background-color: var(--designit-central);
+}
+
+.aff-central img {
+    height: 150px;
+    padding-bottom: 2rem;
+}
+
+.aff-central p {
+    padding-bottom: 2rem;
+}
+
+.aff-left, .aff-right{
+    fill: white;
 }
 
 
 
 
 
+
+.card-aff img {
+    width: 100%;
+    display: block;
+
+
+}
+
+
+.aff-central {
+
+    display: block;
+    background-color: var(--designit-central);
+}
+
+
+
+
+#porta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    
+}
+
+#prova{
+    padding: .5rem;
+    font-size:16px;
+    border: none;
+    background-color: var(--bg-primary); 
+
+}
 
 /*footer*/
 
