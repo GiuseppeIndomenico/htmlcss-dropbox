@@ -1,6 +1,69 @@
-*{
+/*general*/
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+:root {
+    /* Color styles */
+    --button: #0061FF;
+    --bg-primary: #FFFFFF;
+    --designit-central: #F5F5F5;
+    --asu: #61082B;
+    --jumbo: #B4D0E7;
+    --footer: #000000;
+    --topps: #FF1C1C;
+    --wrr: #D5001F;
+    --lonely-planet: #0D2481;
+    --clear-c: #FFD830;
+    --florida: #0093CE;
+    --text-ag: #64173E;
+    --designit-small: #A2D39B;
+
+
+}
+
+/*header*/
+
+
+/*icone header
+
+<i class="fa-solid fa-arrow-down"></i>
+
+
+
+
+
+*/
+
+
+/*main*/
+
+
+
+/*icone main
+
+
+
+<i class="fa-solid fa-user"></i>
+<i class="fa-solid fa-users"></i>
+<i class="fa-solid fa-building"></i>
+<i class="fa-solid fa-folder"></i>
+<i class="fa-solid fa-share-nodes"></i>
+
+<i class="fa-solid fa-angle-down"></i>
+
+
+*/
+
+
+
+/*footer*/
+
+/*icone footer
+<i class="fa-solid fa-earth-americas"></i>
+
+*/
