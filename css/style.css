@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -26,7 +31,55 @@
 
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*header*/
+
+.top-bar div ul li a {
+    color: var(--footer);
+    padding: 1.1rem;
+}
+
+.top-bar div ul li a:hover {
+    border-bottom: 2px solid var(--designit-central);
+}
+
+.btn-color {
+    background-color: var(--button);
+    color: var(--bg-primary);
+    padding: 8px;
+    border: none;
+    min-width: 80px;
+    font-size: 16px;
+}
+
+.top-bar {
+    height: 60px;
+    margin-bottom: 5px;
+    z-index: 1000;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+   
+}
+
+li {
+    padding: 15px;
+}
+
+.sp-bt {
+    justify-content: space-between;
+}
+
+
 
 
 /*icone header
@@ -42,6 +95,72 @@
 
 /*main*/
 
+.bg-jumbo {
+    background-color: var(--jumbo);
+}
+
+
+
+#jumbo {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    max-height: 750px;
+}
+
+.jumbo-cont{
+    display: flex;
+    align-items: flex-start;
+}
+
+#jumbo p, #jumbo button{
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+}
+
+.jumbo-text{
+    width: 350px;
+    position: relative;
+    top:2rem
+}
+
+.img-jumbo{
+    width: 800px;
+    height: 800px;
+}
+
+.img-jumbo img{
+    width: 100%;
+    position: relative;
+    top:2rem
+}
+
+.fa-arrow-down{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.bg-primary{
+    background-color: var(--bg-primary);
+    width: 100%;
+}
+
+.bg-primary section{
+
+    max-width: 1000px;
+    margin: 10rem auto;
+}
+
+input{
+    padding: 2rem;
+    margin:1rem
+}
 
 
 /*icone main
