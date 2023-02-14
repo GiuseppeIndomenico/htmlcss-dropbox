@@ -80,9 +80,7 @@ a {
     gap: 2rem 1rem
 }
 
-li {
-    
-}
+li {}
 
 .sp-bt {
     justify-content: space-between;
@@ -206,21 +204,54 @@ h2 {
 
 }
 
-
-.partner img {
-    width: 600px;
-    display: block;
-}
-
-.partner article {
-    display: block;
-}
-
 .card-bus img {
     width: 300px;
     display: block;
 
 }
+
+
+/*sezione partner*/
+
+.partner{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+.part-img{
+    width:60%;
+}
+
+
+.part-img img {
+    width: 100%;
+    display: block;
+}
+
+.articolo{
+    width:40%;
+    padding:2rem
+}
+
+.articolo h3{
+    font-size:24px ;
+    margin-bottom: 1rem;
+}
+
+.articolo p{
+    margin-bottom: 1rem;
+}
+
+#btn-partner{
+    background-color: var(--bg-primary);
+    padding: .8rem;
+    font-size: 16px;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+
+
 
 /*sezione affiliati*/
 
@@ -346,7 +377,7 @@ section a {
 
 }
 
-#porta h2{
+#porta h2 {
     color: var(--text-ag);
 }
 
@@ -370,32 +401,33 @@ section a {
 
 /*footer*/
 
-footer{
+footer {
     background-color: var(--footer);
     color: var(--bg-primary);
 }
-.cont-footer{
+
+.cont-footer {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 4rem;
 }
 
-.cont-footer hr{
+.cont-footer hr {
     width: 10%;
     margin: 5rem 0;
 }
 
-.card-footer{
+.card-footer {
     display: flex;
     justify-content: space-between
 }
 
-.card-footer ul li{
+.card-footer ul li {
     text-transform: capitalize;
     padding: .5rem;
 }
 
-.card-footer ul li:first-child{
+.card-footer ul li:first-child {
     font-size: 24px;
     font-weight: 700;
 }
@@ -404,14 +436,14 @@ footer{
     color: white;
 }
 
-.fa-earth-americas{
+.fa-earth-americas {
     color: lightgrey;
 }
 
-select{
+select {
     background-color: var(--footer);
     color: lightgrey;
-    border:none;
+    border: none;
     margin-bottom: 3rem;
     text-transform: capitalize;
     font-size: 16px;
