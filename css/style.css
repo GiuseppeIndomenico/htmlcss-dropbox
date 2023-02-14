@@ -154,13 +154,13 @@ h1 {
     color: var(--footer);
 }
 
-#btn-nav{
+#btn-nav {
     font-size: 16px;
     padding: 8px 16px;
     margin-right: 1rem;
 }
 
-.btn-color a{
+.btn-color a {
     color: var(--bg-primary);
 }
 
@@ -314,7 +314,7 @@ h4 {
 
 }
 
-.card-bus h3{
+.card-bus h3 {
     font-size: 24px;
     margin-bottom: 2rem;
 }
@@ -419,7 +419,7 @@ section a {
 }
 
 .aff-left img,
-.aff-right img  {
+.aff-right img {
     filter: invert(1);
 }
 
@@ -504,6 +504,43 @@ section a {
     align-items: center;
 
 }
+
+
+
+/*faq*/
+
+.visible {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 2rem 1rem;
+    transition: all 1s;
+
+}
+
+.open {
+    transform: rotate(180deg);
+    transition: all .5s;
+
+}
+
+.hidden{
+    border-bottom: 1px solid lightgray;
+    visibility: hidden;
+    transition:all .5s;
+}
+
+.visible:hover .open{
+    transform: rotate(0deg);
+    
+}
+
+.visible:hover .hidden{
+    visibility: visible;
+
+}
+
+
+
 
 
 /*footer*/
