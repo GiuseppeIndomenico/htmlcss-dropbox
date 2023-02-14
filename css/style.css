@@ -413,8 +413,8 @@ section a {
 
 }
 
-.aff-left,
-.aff-right {
+.aff-left img,
+.aff-right img  {
     filter: invert(1);
 }
 
