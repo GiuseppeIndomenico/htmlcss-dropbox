@@ -55,9 +55,8 @@ a {
 .btn-color {
     background-color: var(--button);
     color: var(--bg-primary);
-    padding: 8px;
+    padding: 8px 16px;
     border: none;
-    min-width: 80px;
     font-size: 16px;
 }
 
@@ -196,18 +195,22 @@ h2 {
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
+    gap:1rem
 
 }
 
 
 .card {
-    width: (100/3 - 2rem);
+    width: (100/3 - 4rem);
     border: 1px solid lightgrey;
+    max-width: 300px;
+    font-size: 14px;
 }
 
 .top-card {
     border-bottom: 1px solid lightgrey;
     text-align: center;
+    padding:.7rem
 }
 
 
@@ -215,14 +218,47 @@ h2 {
     padding: 1rem
 }
 
+.bottom-card h3{
+    font-size: 24px;
+}
+
+.bottom-card hr {
+    margin: 2rem .6rem;
+    width: 20%;
+}
 
 .bottom-card ul li {
+    padding: .25rem;
+}
+
+.bottom-card .btn-color,
+.buy, .bottom-card ul li  {
+    margin-left: 10px;
+}
+
+.bottom-card ul li:last-child {
     padding-bottom: 2.5rem;
 }
 
 .salienti {
     display: flex;
 }
+
+.share,
+.user,
+.folder,
+.text-folder,
+.text-share,
+.text-user {
+    margin: 16px 8px;
+}
+
+
+.buy {
+    margin-top: 2rem;
+}
+
+
 
 .check {
     color: blue;
@@ -231,7 +267,13 @@ h2 {
     margin-right: 10px;
 }
 
-.text-check{
+h4 {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    font-size: 14px;
+}
+
+.text-check {
     padding-bottom: 1rem;
 }
 
