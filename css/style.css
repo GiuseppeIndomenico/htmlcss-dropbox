@@ -47,7 +47,7 @@ a {
 }
 
 .top-bar div ul li a:hover {
-    border-bottom: 2px solid var(--designit-central);
+    border-bottom:2px inset grey;
 }
 
 .btn-color {
