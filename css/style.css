@@ -44,12 +44,14 @@ a {
 .top-bar div ul li a {
     color: var(--footer);
     padding: 1.85rem;
+    transition: all .25s;
 }
 
 
 
 .top-bar div ul li a:hover {
     border-bottom: 2px inset grey;
+    background-color: var(--designit-central);
 }
 
 .btn-color {
@@ -58,6 +60,12 @@ a {
     padding: 10px 20px;
     border: none;
     font-size: 14px;
+    transition: all linear .25s;
+}
+
+.btn-color:hover{
+    background-color: #4770f9;
+
 }
 
 .top-bar {
@@ -356,6 +364,12 @@ h4 {
     font-size: 16px;
     border: 1px solid black;
     margin-top: 2rem;
+    transition: all .25s;
+}
+
+#btn-partner:hover{
+    background-color: var(--footer);
+    color: var(--bg-primary);
 }
 
 
@@ -378,8 +392,14 @@ section a {
     width: 50%;
     height: 50%;
     padding: 4rem;
+    transition: all .5s;
 
 }
+
+.card-aff:hover{
+    filter:invert(1)
+}
+
 
 
 .aff-left,
@@ -444,7 +464,10 @@ section a {
 
 .designit {
     background-color: var(--designit-small);
+   
 }
+
+
 
 .asu {
     background-color: var(--asu);
@@ -494,6 +517,12 @@ section a {
     font-size: 16px;
     border: none;
     background-color: var(--bg-primary);
+    transition: all linear .25s;
+}
+
+#prova:hover {
+    background-color: var(--footer);
+    color: var(--bg-primary);
 
 }
 
@@ -509,6 +538,7 @@ section a {
 
 /*faq*/
 
+
 .visible {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -519,25 +549,20 @@ section a {
 
 .open {
     transform: rotate(180deg);
-    transition: all .5s;
+    transition: all linear .2s;
 
 }
 
-.hidden{
-    border-bottom: 1px solid lightgray;
-    visibility: hidden;
-    transition:all .5s;
+.visible:hover{
+    background-color: var(--designit-central);
 }
+
 
 .visible:hover .open{
     transform: rotate(0deg);
     
 }
 
-.visible:hover .hidden{
-    visibility: visible;
-
-}
 
 
 
@@ -593,6 +618,14 @@ select {
     font-size: 16px;
 
 }
+
+.card-footer ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
 
 
 
