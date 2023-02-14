@@ -245,6 +245,7 @@ section a {
 .aff-right,
 .aff-central {
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -258,12 +259,13 @@ section a {
 }
 
 .aff-central img {
-    height: 150px;
-    padding-bottom: 2rem;
+    width: 100%;
+    padding-bottom: 1rem;
 }
 
 .aff-central p {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+   
 }
 
 .aff-left, .aff-right{
