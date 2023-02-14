@@ -43,8 +43,10 @@ a {
 
 .top-bar div ul li a {
     color: var(--footer);
-    padding: 20px;
+    padding: 1.85rem;
 }
+
+
 
 .top-bar div ul li a:hover {
     border-bottom: 2px inset grey;
@@ -60,7 +62,7 @@ a {
 }
 
 .top-bar {
-    height: 60px;
+    height: 85px;
     margin-bottom: 5px;
     z-index: 1000;
     position: fixed;
@@ -79,8 +81,6 @@ a {
 .gp {
     gap: 2rem 1rem
 }
-
-li {}
 
 .sp-bt {
     justify-content: space-between;
@@ -192,12 +192,48 @@ h2 {
     margin-bottom: 2.5rem;
 }
 
+.cont-card {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
 
 .card {
     width: (100/3 - 2rem);
     border: 1px solid lightgrey;
 }
 
+.top-card {
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+
+
+.bottom-card {
+    padding: 1rem
+}
+
+
+.bottom-card ul li {
+    padding-bottom: 2.5rem;
+}
+
+.salienti {
+    display: flex;
+}
+
+.check {
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.text-check{
+    padding-bottom: 1rem;
+}
 
 .card-bus {
     width: calc(100% / 3 - 2rem);
@@ -213,14 +249,14 @@ h2 {
 
 /*sezione partner*/
 
-.partner{
+.partner {
     display: flex;
     align-items: center;
-    gap:10px
+    gap: 10px
 }
 
-.part-img{
-    width:60%;
+.part-img {
+    width: 60%;
 }
 
 
@@ -229,21 +265,17 @@ h2 {
     display: block;
 }
 
-.articolo{
-    width:40%;
-    padding:2rem
+.articolo {
+    width: 40%;
+    padding: 2rem
 }
 
-.articolo h3{
-    font-size:24px ;
+.articolo h3 {
+    font-size: 24px;
     margin-bottom: 1rem;
 }
 
-.articolo p{
-    margin-bottom: 1rem;
-}
-
-#btn-partner{
+#btn-partner {
     background-color: var(--bg-primary);
     padding: .8rem;
     font-size: 16px;
