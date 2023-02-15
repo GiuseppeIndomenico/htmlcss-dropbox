@@ -64,7 +64,7 @@ a {
 }
 
 .btn-color:hover{
-    background-color: #4770f9;
+    background-color:#0062ff70;
 
 }
 
@@ -380,6 +380,8 @@ h4 {
 .aff {
     width: 100%;
     display: flex;
+    align-items: center;
+    align-content: center;
 }
 
 section a {
@@ -397,8 +399,15 @@ section a {
 }
 
 .card-aff:hover{
-    filter:invert(1)
+    filter:invert(1);
+    box-shadow: inset 0 0 0 15px rgba(255, 255, 255, 0.2);
+
+    
 }
+
+
+
+
 
 
 
@@ -421,7 +430,7 @@ section a {
 }
 
 .logo-central {
-    width: 250px;
+    width: 100%;
 }
 
 .aff-central hr {
@@ -443,6 +452,7 @@ section a {
 .aff-left img,
 .aff-right img {
     filter: invert(1);
+    margin-left: 15px;
 }
 
 
@@ -451,7 +461,7 @@ section a {
 
 
 .card-aff img {
-    width: 100%;
+    width: 80%;
     display: block;
 
 
@@ -546,6 +556,16 @@ section a {
     padding: 2rem 1rem;
     transition: all 1s;
 
+}
+
+.hidden{
+    display: none;
+    margin-top: 1rem;
+    transition: all 1s;
+}
+
+.visible:hover .hidden{
+    display: block;
 }
 
 .visible:last-child{
