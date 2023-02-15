@@ -391,7 +391,7 @@ section a {
     align-items: center;
     width: 50%;
     height: 50%;
-    padding: 4rem;
+    padding: 20px;
     transition: all .5s;
 
 }
@@ -406,6 +406,7 @@ section a {
 .aff-right,
 .aff-central {
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -416,6 +417,7 @@ section a {
 .aff-central {
     padding: 4rem;
     background-color: var(--designit-central);
+    overflow-y: auto;
 }
 
 .logo-central {
