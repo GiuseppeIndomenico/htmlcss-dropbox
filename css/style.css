@@ -44,7 +44,7 @@ a {
 .top-bar div ul li a {
     color: var(--footer);
     padding: 1.85rem;
-    transition: all .25s;
+    transition: background-color .25s;
 }
 
 
@@ -541,10 +541,13 @@ section a {
 
 .visible {
     border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
     padding: 2rem 1rem;
     transition: all 1s;
 
+}
+
+.visible:last-child{
+    border-bottom: 1px solid lightgray;
 }
 
 .open {
